@@ -209,6 +209,21 @@ nav .navList ul li a:hover{
 .location .loc{
     text-align: center;
 }
+
+/* call */
+#call{
+    padding-left:190px;
+    margin-top: 10px;
+}
+#social{
+    padding-left: 510px;
+    margin-top: 10px;
+}
+#cpt_r{
+    text-align: center;
+}
+
+
 /* navbar responsive */
 @media(max-width:830px){
    
@@ -378,6 +393,13 @@ nav .navList ul li a:hover{
         height: 150px;
         width: 320px;
 
+    }
+    #main .follow{
+        margin-left: -311px;
+        margin-top: 90px;
+    }
+    #cpt_r{
+        text-align: center;
     }
    
 }

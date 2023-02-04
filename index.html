@@ -16,7 +16,7 @@
     <!-- navbar -->
     <nav>
 
-        <div class="container navbar">
+        <div class="container navbar" id="nav_">
             <div class="head">
                 <a href="">Vastra hub</a> <label for=""><i>for women</i></label>
             </div>
@@ -24,11 +24,11 @@
                 <input type="checkbox" id="checks">
                 <label for="checks"><i class="fa-solid fa-bars"></i></label>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Location</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#nav_">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#loc">Location</a></li>
+                    <li><a href="#con">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -45,7 +45,7 @@
         </div>
     </div><br><br>
     <!-- about us -->
-    <div class="aboutUs">
+    <div class="aboutUs" id="about">
         <div class="txts">
             <H1>ABOUT US</H1><br>
             <p>VASTRA HUB was brought into the world through a progression of spring-up stores in 2014.We needed to
@@ -62,7 +62,7 @@
         </div>
     </div><br><br>
     <!-- dress images-->
-    <div class="dress">
+    <div class="dress" id="gallery">
         <h1 id="pics">Gallery</h1><br>
         <div class="row1">
             <div class="img1">
@@ -109,7 +109,7 @@
         </div>
     </div><br><br>
     <!-- location -->
-    <div class="location">
+    <div class="location" id="loc">
         <h1 class="h1_loc">Location</h1><br>
         <div class="loc_main">
             <div class="loc">
@@ -119,13 +119,23 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="locData">
-                <p> Kalamassery </p>
+                <h1> Kalamassery </h1>
+                <h4>Puthiya road jn.</h4>
+                <h5>Opposite mahindra logistics</h5>
+
             </div>
         </div>
     </div><br><br>
     <!-- contact us -->
-    <div class="contact">
-        <h1 class="head_contact">Contact us</h1>
+    <div class="contact" id="con" style="background-color: #fcba03;">
+        <span id="main"> 
+            <span id="call"> <i class="fa-solid fa-phone"></i>:-&nbsp; 8907654321</span>
+            <span id="social"><span class="follow">follow us:-</span>  <i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-square-instagram"></i></span>
+        </span>
+        <div id="cpt_r"> 
+                <span id="cr">Copyright &nbsp; <i class="fa-regular fa-copyright"></i>&nbsp; 2014</span>
+        </div>
     </div>
 </body>
 
