@@ -210,14 +210,10 @@ nav .navList ul li a:hover{
     text-align: center;
 }
 
-/* call */
-#call{
-    padding-left:190px;
-    margin-top: 10px;
-}
-#social{
-    padding-left: 510px;
-    margin-top: 10px;
+/* contact */
+#main{
+    padding-left: 550px;
+    padding-top: 20px;
 }
 #cpt_r{
     text-align: center;
@@ -394,12 +390,23 @@ nav .navList ul li a:hover{
         width: 320px;
 
     }
-    #main .follow{
-        margin-left: -311px;
-        margin-top: 90px;
+    /* contact */
+    .contact{
+        padding-top: 20px;
+
     }
+    #main{
+        padding-left: 92px;
+    }
+    /* #call{
+        padding-left: 40px;
+    } */
+    /* .follow{
+        margin-left: 70px;
+    } */
     #cpt_r{
         text-align: center;
+        padding-bottom: 23px;
     }
    
 }
